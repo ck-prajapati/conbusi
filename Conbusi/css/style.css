@@ -221,6 +221,7 @@ body {
   background-position: center center;
   background-repeat: no-repeat;
   padding: 140px 0 100px;
+  margin-top: 40px;
   position: relative;
   z-index: 0;
 }
@@ -232,6 +233,7 @@ body {
 
 .counter_overlay::before{
     position: absolute;
+    content: "";
     width: 100%;
     height: 100%;
     left: 0;
