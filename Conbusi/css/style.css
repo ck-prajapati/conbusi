@@ -564,9 +564,12 @@ body {
   padding-left: 20px;
   font-size: 16px;
   color: #000;
-  border: none;
   border: 1px solid #e8e8e8;
   border-radius: 30px;
+}
+
+.subscribe_form .btn-append{
+  margin-left: -100px;
 }
 
 .subscribe_form button{
@@ -578,7 +581,9 @@ body {
   color: #fff;
   background: #5db2ff;
   padding: 10px 22px;
+  margin: 5px 5px;
 }
+
 .copy-right_area{
   padding-top:30px;
 }
